@@ -1,0 +1,87 @@
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+
+}
+
+/* Este es un comentario */
+/* Selector tipo etiqueta */
+/* Background color = color de todo el cuerpo seleccionando body */
+body {
+    background-color: rgb(0, 0, 0);
+    color: white; /* Para que el texto sea legible sobre el fondo */
+    font-family: Arial, sans-serif; /* Fuente legible y estándar */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra el texto en todo el cuerpo */
+}
+
+/* Selector de tipo id */
+#Titulo-1 {
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(150, 139, 226);
+    margin: 20px;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+/* Selector de tipo class */
+.estilo-seccion {
+    background-color: rgb(150, 139, 226);
+    color: black; /* Texto legible sobre fondo beige */
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    border: 3px solid black;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+nav ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ol li a:hover {
+    text-decoration: underline;
+}
+
+/* Eliminar viñetas y centrar las listas */
+ol, ul {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar relleno por defecto */
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+nav ol {
+    padding-left: 20px; /* Ajuste de relleno para el índice de navegación */
+}
+
+/* Estilo adicional para secciones */
+h2 {
+    text-align: center;
+    
+}
+
+h3, h4 {
+    margin-top: 0;
+}
+
+.Image-profile{
+    width: 428px;
+    height: 571px;
+    display: block;
+    margin: 0 auto 10px;
+    padding: 25px;
+    border: 3px solid white;
+}
